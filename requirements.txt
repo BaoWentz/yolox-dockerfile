@@ -10,4 +10,5 @@ thop
 ninja
 tabulate
 tensorboard
+Pathlib2
 onnxruntime
