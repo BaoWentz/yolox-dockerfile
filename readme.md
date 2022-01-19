@@ -19,7 +19,7 @@ git clone https://github.com/Megvii-BaseDetection/YOLOX
 mv run-docker.sh YOLOX/
 cd YOLOX/
 ```
-只要保证```run-docker.sh```在YOLOX的根目录下就行。
+只要**保证```run-docker.sh```在YOLOX的根目录下就行。**
 
 # 启动虚拟容器
 
