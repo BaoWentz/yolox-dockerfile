@@ -1,4 +1,3 @@
-# docker build -f ./Dockerfile.txt -t yolox .
 FROM nvcr.io/nvidia/pytorch:21.06-py3
 # install douban pip source, boost installation
 RUN mkdir ~/.pip && echo -e "[global]\nindex-url = https://pypi.doubanio.com/simple\ntrusted-host = pypi.doubanio.com\n" > ~/.pip/pip.conf
@@ -17,3 +16,5 @@ RUN sudo apt install tmux -y
 # RUN cd /tmp && git clone https://github.com/NVIDIA/apex && cd apex && pip install -v \
 #     --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./ &&\
 #     rm /tmp/apex -rf
+
+# docker build -f ./Dockerfile.txt -t yolox .
